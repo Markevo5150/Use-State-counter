@@ -1,0 +1,51 @@
+//Variables
+body {
+  --background: #26213f;
+  --text: #ffffff;
+  --btn_action: #46b576;
+  --btn_reset: #ed2c3f;
+}
+
+//Styles
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: var(--background);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+span,
+a {
+  color: var(--text);
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .counter {
+    font-size: 56px;
+    margin-bottom: 1rem;
+  }
+  .btnBox {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+}
